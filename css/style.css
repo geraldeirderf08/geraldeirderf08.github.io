@@ -65,6 +65,7 @@ img {
   border-bottom: 2px solid #28a745;
 }
 
+
 .navbar ul {
   display: flex;
 
@@ -72,6 +73,14 @@ img {
 
 .navbar .logo {
   font-weight: 400;
+}
+
+.navbar .logo a {
+  border: none;
+}
+
+.navbar .logo a:hover {
+  opacity: 0.9;
 }
 
 /* Header */
